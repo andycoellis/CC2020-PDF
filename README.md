@@ -9,10 +9,10 @@
 
 ### Lambda Features
 **Python Scipt with HTML template:** 
->+ *Function Handler*
->+ *Publish and Retrieve Data from AWS S3 Bucket*
->+ *Convert JSON to PDF*
->+ *Send Email with AWS SES (simple email service)*
++ *Function Handler*
++ *Publish and Retrieve Data from AWS S3 Bucket*
++ *Convert JSON to PDF*
++ *Send Email with AWS SES (simple email service)*
 
 #### Notes
 >This Python script utilises **AWS Lambda** function handlers to retrieve a JSON object form a designated **S3 Bucket** convert to a PDF, store the PDF in another S3 bucket then forward the PDF to **AWS SES.** 
