@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <p align="center">Company: {{company_name}}
+   		<br>ABN No: {{company_abn}}
+    </p>
+    <br>
+   	<p align="center"><font size="14"><b>Payslip for {{employee_name}}, ID Number {{employee_id}}<b></font></p>
+   	<br>
+  	<p align="left"><font size="13"><b>Your Payroll Details<b></font></p>
+  	<p>ID Number: {{employee_id}}
+    	<br>Name:		{{employee_name}}
+    	<br>Base Hours:		{{base_hours}}
+    	<br>Saturday Hours:		{{sat_hours}}
+    	<br>Sunday Hours:		{{sun_hours}}
+    	<br>Period of Payment:		{{pay_period}}
+    	<br>Weeks in Pay:		1.000
+    	<br>Payslip Type:		Payslip    
+    	<br> 
+   </p>
+    <p align="right">
+    	<b>YTD Details</b>
+    	<b>Taxable Gross:    $   ${{pay_ytd}}</b>
+    </p> 
+    <table border="3" width="100%">
+    	<thead>
+    		<tr>
+    			<th align="left" width="30%">Description</th>
+  				<th align="left" width="70%">Amount</th> 
+    		</tr>
+    	</thead>
+    	<tr>
+    		<td>Gross Earnings</td>
+  			<td align="right">${{pay}}</td> 
+    	</tr>
+    	<tr>
+    		<td>Tax Deducted</td>
+  			<td align="right">${{tax}}</td> 
+    	</tr>
+    </table>
+
+</body>
+</html>
